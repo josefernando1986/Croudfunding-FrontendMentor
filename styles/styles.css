@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@media (max-width:768px) {
-    body{
-        background-color: red;
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width:320px) {
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            height: 200px;
+            background-image: url('../images/image-hero-mobile.jpg');
+            background-size: cover;
+            color: white;
+            }
+        .header--ul{
+            display: none;
+            line-height: 12px;
+        }
+        .header--hamburguer{
+            margin-top: 5px;
+        }
     }
 }
