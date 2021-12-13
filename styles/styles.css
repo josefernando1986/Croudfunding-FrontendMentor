@@ -56,6 +56,7 @@ body{
             position: absolute;
             top: -25px;
             left: calc(50% - 10%);
+
         }
         .main--h1{
             margin-bottom: 17px;
@@ -64,15 +65,45 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 0 10px;
+            padding: 0 8px;
         } 
         .main--button__green{
-            padding: 18px 40px;
+            padding: 10px 40px;
             background-color: var(--green);
             border-radius: 40px;
             color: white;
             text-decoration: none;
             margin: 0 10px;
             font-size: 10px;
+        }
+        /* Cambiar el tamaño del logo */
+        main #bookmark {
+
+        }
+
+        main li{
+            list-style: none;
+            margin: 40px 0;
+        }
+
+        main li h3{
+            font-size: 20px;
+        }
+
+        main li p{
+            color: grey;
+        }
+
+        main hr {
+            width: 60px;
+            margin: 0 auto;
+            margin-top: 20px;
+            color: grey;
+        }
+        /* Corregir color de la barra */
+        main progress  {
+            height: 20px;
+            width: 100px;
+            margin-bottom: 20px;    
         }
     }
