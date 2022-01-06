@@ -145,7 +145,7 @@ body{
         
         .card-pledge-title{
             color: var(--green);
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .p-card{
@@ -159,5 +159,22 @@ body{
         .card-left{
             font-size: 10px;
             position: absolute;
+        }
+
+        .button-a{
+            position: absolute;
+            left: 35px; 
+        }
+
+        .button-disabled{
+            background-color: grey;
+        }
+
+        .modal-default{
+            display: none;
+        }
+
+        .modal-thanks{
+            display: none;
         }
     }
